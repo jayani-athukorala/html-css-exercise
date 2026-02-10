@@ -1,0 +1,13 @@
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: solid #333;
+}
+
+th {
+    text-align: left;      /* left align text */
+    padding: 8px;
+}

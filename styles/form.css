@@ -1,0 +1,25 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    vertical-align: top;
+}
+
+#gender-labels {
+    display: inline-block;
+}
+
+
+.input-data {
+    width: 300px;
+} 
+
+textarea {
+    resize: none;
+}

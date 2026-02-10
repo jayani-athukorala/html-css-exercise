@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    margin: 0;
+}
+
+.login-div {
+    padding-top: 30px;
+    border: 5px solid #333;
+    width : 100%;
+    align-self: center;
+    
+}

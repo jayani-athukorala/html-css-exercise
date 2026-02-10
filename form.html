@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS-Tutorial</title>
+
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <h1 class="page-heading">HTML - CSS Basics</h1>
+    </header>
+    <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="list.html" class="nav-link">Lists</a>
+        <a href="form.html" class="nav-link active">Forms</a>
+        <a href="table.html" class="nav-link">Tables</a>
+    </nav>
+    <main class="main">
+        <h2>HTML Forms</h2>
+
+        <h3>Register here to get more information about travel destinations</h3>
+        <form>
+            <label for="title">Title</label>
+            <select class="input-data">
+                <option value="">-- Select Title --</option>
+                <option value="1">Mr</option>
+                <option value="2">Mrs</option>
+                <option value="3">Ms</option>
+                <option value="4">Rev</option>
+            </select>
+            <br/>
+
+            <label for="name">Full Name</label>
+            <input id="name" class="input-data" name="name" type="text">
+            <br/>
+
+            <label for="email">Email</label>
+            <input id="email" class="input-data" name="email" type="email">
+            <br/>
+
+            <label for="telephone">Telephone</label>
+            <input id="telephone" class="input-data" name="telephone" type="tel">
+            <br/>
+
+            <label>Gender</label>
+            <div id="gender-labels">
+                <input type="radio" id="male" name="gender" value="1" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="2">
+                <label for="female">Female</label>
+            </div>
+            <br/>
+
+            <label for="enquiry">Enquiries</label>
+            <textarea id="enquiry"  class="input-data" name="enquiry" rows="4" placeholder="Write your enquiry here..." required></textarea>
+            <br/>
+            <label for="register"></label>
+            <button id="register" type="submit">Submit</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <dev class="footer-marquee">
+            Copyright &copy; 2023 Lexicon
+        </dev> 
+    </footer>     
+</body>
+</html>
