@@ -1,10 +1,11 @@
 table {
     width: 80%;
     margin: 0 auto;
+    border-collapse: collapse;
 }
 
 table, th, td {
-    border: solid #333;
+    border: 1px solid #333;
 }
 
 th {

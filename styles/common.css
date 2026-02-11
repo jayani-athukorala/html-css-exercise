@@ -2,11 +2,13 @@ header {
     background: #0c0b0b;
     height : 100px;
     display: flex;
-    justify-content: center;  /* horizontal center*/
     align-items: center; /* vertical center*/
+    padding-left: 12px;
 }
 
 .page-heading {
+    width: 70%;
+    text-align: center;
     color: #ef9494;
 }
 
@@ -44,21 +46,32 @@ nav {
 
 .footer {
     background: #0c0b0b;
-    height: 50px;
-    display: flex;
-    align-items: center;
     color: aliceblue;
-    overflow: hidden;  
-    position: relative;
-
+    padding: 10px 0;
+    overflow: hidden;
 }
 
+.footer-extra {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two columns */
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer-extra a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Bottom row: marquee */
 .footer-marquee {
-    white-space: nowrap; 
+    white-space: nowrap;
     animation: scroll-footer 40s linear infinite;
     padding-left: 100%;
+    margin: 0;
 }
 
+/* animation */
 @keyframes scroll-footer {
     from {
         transform: translateX(-100%);
